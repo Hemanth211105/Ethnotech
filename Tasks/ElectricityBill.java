@@ -7,6 +7,6 @@ class ElectricityBill{
 		System.out.println("Electricty bill : " + eleBill(units));
 	}
 	static int eleBill(int units){
-		return ((units > 250) & true) ? units - 250 : 0;
+		return (units > 250) ? units - 250 : 0;
 	}
 }
