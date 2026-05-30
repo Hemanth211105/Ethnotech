@@ -33,5 +33,19 @@ class BookingCab_Polymorphism{
 		a.bookcab();
 		b.bookcab();
 		c.bookcab();
+		/*class BookingCab_Polymorphism{
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+		Auto a=new Auto();
+		Cab c=new Cab();
+		Bike b=new Bike();
+		System.out.println("Enter Charge : ");
+		int charge=sc.nextInt();
+		if (charge==150) a.bookcab();
+		else if (charge==250)  c.bookcab();
+		else b.bookcab();
+		sc.close();
+	}
+}*/
 	}
 }
