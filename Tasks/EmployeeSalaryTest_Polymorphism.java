@@ -32,7 +32,7 @@ class HybridEmployee extends EmployeeSalary {
         System.out.println("Hybrid employee salary: $" + salary);
     }
 }
-public class EmployeeSalaryTest {
+public class EmployeeSalaryTest_Polymorphism {
     public static void main(String[] args) {
         FullTimeEmployee fullTimeEmployee = new FullTimeEmployee();
         Interns intern = new Interns();
