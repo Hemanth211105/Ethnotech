@@ -7,7 +7,7 @@ class Student {
         return id;
     }
 }
-class Main1 {
+class StudentID_Encapsulation {
     public static void main(String args[]) {
 
         Student st = new Student();
