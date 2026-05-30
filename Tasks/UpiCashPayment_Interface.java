@@ -12,7 +12,7 @@ class Payment implements Upi, Cash {
         System.out.println("Paying With Cash");
     }
 }
-public class Interface_Cash_Example {
+public class UpiCashPayment_Interface {
     public static void main(String[] args) {
 		Payment p1=new Payment();
 		p1.upipayment();
