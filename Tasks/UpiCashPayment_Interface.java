@@ -4,7 +4,7 @@ interface Upi {
 interface Cash {
     void cashpayment();
 }
-class Payment implements Upi, Cash {
+class Payment implements Upi, Cash { 
     public void upipayment() {
         System.out.println("Paying With UPI");
     }
