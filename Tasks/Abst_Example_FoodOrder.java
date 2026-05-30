@@ -44,7 +44,7 @@ class PizzaOrder extends FoodOrder{
 		System.out.println("Amount to pay: "+(total-(total*0.05)));
 	}
 }
-class abst_FoodOrder{
+class Abst_Example_FoodOrder{
 	public static void main(String args[]){
 		PizzaOrder fo=new PizzaOrder("Revanth","Biryani",2,150);
 		PizzaOrder f1=new PizzaOrder("Bharath","Dosa",3,40);
