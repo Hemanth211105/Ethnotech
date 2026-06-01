@@ -1,5 +1,5 @@
 import java.util.*;
-class Factorial{
+class Factorial_Recursion{
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
