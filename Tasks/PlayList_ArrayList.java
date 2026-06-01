@@ -3,10 +3,15 @@ class PlayList_ArrayList{
 	public static void main(String args[]){
 		List<String> li=new ArrayList<>();
 		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter First Song: ");
 		String fs=sc.nextLine();
+		System.out.print("Enter Second Song: ");
 		String ss=sc.nextLine();
+		System.out.print("Enter Third Song: ");
 		String ts=sc.nextLine();
+		System.out.print("Enter FOurth Song: ");
 		String fos=sc.nextLine();
+		System.out.print("Enter Fifth Song: ");
 		String fis=sc.nextLine();
 		li.add(fs);
 		li.add(ss);
