@@ -1,3 +1,4 @@
+//Product of an array  Except itself
 import java.util.Scanner;
 public class ProductArrayExceptItself {
 
